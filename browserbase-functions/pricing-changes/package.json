@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Scrapes a company's /pricing page and extracts tiers. Deployed to Browserbase Functions.",
   "scripts": {
-    "dev": "bb functions dev index.ts",
+    "dev": "node init && bb functions dev index.ts",
     "publish": "bb functions publish index.ts"
   },
   "dependencies": {
